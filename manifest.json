@@ -1,15 +1,20 @@
 {
-  "name": "Ez Unblock",
+  "name": "N-WIB",
   "manifest_version": 2,
-  "version": "22.1",
-  "description": "Easily unblock websites!",
+  "version": "0.2.1",
+  "description": "",
   "background": {
       "scripts": ["background.js"]
   },
   "permissions": ["tabs"],
+  "icons": {
+      "16": "icons/iconWeb.png",
+      "32": "icons/iconWeb.png"
+    },
   "browser_action": {
     "default_icon": {
       "16": "icons/iconWeb.png",
       "32": "icons/iconWeb.png"
     }
-}}
+}
+}
